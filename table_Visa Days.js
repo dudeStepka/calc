@@ -81,7 +81,7 @@ function getNumberOfDays() {
                 break;
         }
     }
-    alert(numberOfYears);
+    // alert(numberOfYears);
     if (numberOfYears > 0) document.forms[1].Result.value = (Math.round(numberOfYears * 100) / 100);
 
 
