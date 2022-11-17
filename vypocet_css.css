@@ -301,15 +301,6 @@ p.blocktext {
         width: 100vw;
         margin-bottom: 40px;
     }
-    .four {
-        margin-left: 0;
-        margin-right: 0;
-        text-align: left;
-        width: 100vw;
-        font-size: 19px;
-        letter-spacing: 0.2em;
-        line-height: 150%;
-    }
     .one {
         /* padding-left: 15px; */
         width: fit-content;
@@ -317,8 +308,25 @@ p.blocktext {
     }
     body {
         width: 100vw;
-        outline: 1px solid black;
+        /* outline: 1px solid black; */
         margin: 0;
         /* overflow: hidden; */
+    }
+    .four {
+        /* margin-left: 33vw; */
+        /* margin-right: 33vw; */
+        text-align: left;
+        width: fit-content;
+        margin: auto;
+        font-size: 19px;
+        letter-spacing: 0.2em;
+        line-height: 150%;
+        /* margin-bottom: 50px; */
+        /* outline: 1px solid black; */
+        /* padding: 0px 30px; */
+    }
+    .footer {
+        width: 100vw;
+        margin-top: 50px;
     }
 }
