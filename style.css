@@ -394,7 +394,7 @@ p.blocktext {
 /* Hide the images by default */
 
 .mySlides {
-/*     display: none; */
+    display: none;
 }
 
 
