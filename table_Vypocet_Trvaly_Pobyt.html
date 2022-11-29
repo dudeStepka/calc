@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Výpočet</title>
     <link rel="stylesheet" href="vypocet_css.css">
+
+
     <script>
         let clickNumber = 0;
 
@@ -22,7 +24,7 @@
 
 <body>
     <header>
-        <img src="logo.png" alt="Logo">
+        <img src="logo.png" alt="Logo" id="logo">
         <div class="MenuClass">
             <div class="Hamburger" onclick="showMenu();">
                 <div class="Line Line1"></div>
@@ -51,11 +53,11 @@
                     <div class="elipse"><span>1</span></div>
                 </div>
                 <div class="one">
-                    <input type="radio" name="VisaType" id="" class="VT">&nbsp;&nbsp;Zaměstnanecká karta<br>
-                    <input type="radio" name="VisaType" id="" class="VT">&nbsp;&nbsp;Studentské vizum<br>
-                    <input type="radio" name="VisaType" id="" class="VT">&nbsp;&nbsp;Spojení<br>
-                    <input type="radio" name="VisaType" id="" class="VT">&nbsp;&nbsp;Strpení<br>
-                    <input type="radio" name="VisaType" id="" class="VT">&nbsp;&nbsp;Ostatní
+                    <input type="radio" name="VisaType" id="zk" class="VT">&nbsp;&nbsp;Zaměstnanecká karta<br>
+                    <input type="radio" name="VisaType" id="sv" class="VT">&nbsp;&nbsp;Studentské vizum<br>
+                    <input type="radio" name="VisaType" id="sp" class="VT">&nbsp;&nbsp;Spojení<br>
+                    <input type="radio" name="VisaType" id="st" class="VT">&nbsp;&nbsp;Strpení<br>
+                    <input type="radio" name="VisaType" id="os" class="VT">&nbsp;&nbsp;Ostatní
                 </div>
             </div>
             <!-- <div style="display: inline-block;"> -->
@@ -189,7 +191,7 @@
         </table>
     </form> -->
 
-    <script src="table_Visa Days.js "></script>
+    <script src="table_Visa_Days.js"></script>
     <div class="footer ">
         <p class="blocktext ">
             © GLOGER Advokátní kancelář
